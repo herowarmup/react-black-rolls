@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function RollBlock({ title, price }) {
-  const [rollsCount, setRollsCount] = useState(0);
+  const [rollsCount, setRollsCount] = React.useState(0);
 
   const onClickAddBtn = () => {
     setRollsCount(rollsCount + 1);
