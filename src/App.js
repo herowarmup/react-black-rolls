@@ -4,7 +4,11 @@ import Categories from './components/Categories';
 import Sort from './components/Sort';
 import RollBlock from './components/RollBlock';
 
+import rolls from './assets/rolls.json';
+
 import './scss/app.scss';
+
+console.log(rolls);
 
 function App() {
   return (
@@ -18,13 +22,9 @@ function App() {
           </div>
           <h2 className='content__title'>Все роллы</h2>
           <div className='content__items'>
-            <RollBlock title='BLACK-ROLL С ЛОСОСЕМ' price='350' />
-            <RollBlock title='BLACK-ROLL С УГРЕМ' price='390' />
-            <RollBlock title='BLACK-ROLL С КРЕВЕТКОЙ' price='370' />
-            <RollBlock title='ЯПОНСКИЙ ДРАКОН' price='400' />
-            <RollBlock title='БЕЗ РИСА С ЛОСОСЕМ' price='500' />
-            <RollBlock title='БЕЗ РИСА С КРЕВЕТКОЙ' price='540' />
-            <RollBlock title='БЕЗ РИСА С КРАБОМ' price='550' />
+            {rolls.map((rolls) => (
+              <RollBlock title={rolls.title} price={rolls.price} />
+            ))}
           </div>
         </div>
       </div>
