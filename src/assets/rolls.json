@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "imageUrl": "https://thumb.tildacdn.com/stor3938-3332-4336-a366-646131633338/-/cover/360x60/center/center/-/format/webp/6692475.jpg",
+    "imageUrl": "https://thumb.tildacdn.com/stor3938-3332-4336-a366-646131633338/-/cover/360x300/center/center/-/format/webp/66922675.jpg",
     "title": "BLACK ROLL С ЛОСОСЕМ",
     "types": [0, 1],
     "sizes": [4, 6, 8],
@@ -14,7 +14,7 @@
     "imageUrl": "https://thumb.tildacdn.com/stor3563-3762-4438-a134-336633396137/-/cover/360x300/center/center/-/format/webp/31840982.jpg",
     "title": "BLACK ROLL С УГРЕМ",
     "types": [0],
-    "sizes": [4, 8],
+    "sizes": [4, 6, 8],
     "price": 400,
     "category": 2,
     "rating": 6
@@ -24,7 +24,7 @@
     "imageUrl": "https://thumb.tildacdn.com/stor3965-3733-4961-a665-613465303161/-/cover/360x300/center/center/-/format/webp/21985204.jpg",
     "title": "BLACK ROLL С КРЕВЕТКОЙ",
     "types": [0],
-    "sizes": [4, 8],
+    "sizes": [4, 6, 8],
     "price": 380,
     "category": 2,
     "rating": 4
@@ -34,7 +34,7 @@
     "imageUrl": "https://thumb.tildacdn.com/tild6232-3362-4738-b563-666361303439/-/cover/360x300/center/center/-/format/webp/______.jpg",
     "title": "БЕЗ РИСА С ЛОСОСЕМ",
     "types": [1],
-    "sizes": [4, 6, 8],
+    "sizes": [4, 6],
     "price": 480,
     "category": 4,
     "rating": 2
@@ -44,7 +44,7 @@
     "imageUrl": "https://thumb.tildacdn.com/tild6137-6165-4066-b763-306132663437/-/cover/360x300/center/center/-/format/webp/___.jpg",
     "title": "БЕЗ РИСА С КРЕВЕТКОЙ",
     "types": [0, 1],
-    "sizes": [4, 6, 8],
+    "sizes": [4, 6],
     "price": 450,
     "category": 4,
     "rating": 8
@@ -54,7 +54,7 @@
     "imageUrl": "https://thumb.tildacdn.com/tild3034-3733-4634-a136-303635393964/-/cover/360x300/center/center/-/format/webp/__c__.jpg",
     "title": "БЕЗ РИСА С КРАБОМ",
     "types": [0],
-    "sizes": [6, 8],
+    "sizes": [4, 6],
     "price": 500,
     "category": 4,
     "rating": 2
@@ -62,9 +62,9 @@
   {
     "id": 6,
     "imageUrl": "https://thumb.tildacdn.com/tild3139-3838-4635-a165-323037343334/-/cover/360x300/center/center/-/format/webp/___.jpg",
-    "title": "Пепперони",
+    "title": "БЕЗ РИСА С СЫРОМ",
     "types": [0, 1],
-    "sizes": [4, 6, 8],
+    "sizes": [4, 6],
     "price": 420,
     "category": 4,
     "rating": 9
@@ -82,7 +82,7 @@
   {
     "id": 8,
     "imageUrl": "https://thumb.tildacdn.com/stor3761-3334-4134-b030-363463613564/-/cover/360x300/center/center/-/format/webp/34180682.jpg",
-    "title": "ФИЛАДЕЛЬФИЯ С ОГУРЦОМ",
+    "title": "ФИЛА С ОГУРЦОМ",
     "types": [0, 1],
     "sizes": [4, 6, 8],
     "price": 395,
@@ -104,7 +104,7 @@
     "imageUrl": "https://thumb.tildacdn.com/stor6261-3938-4566-a266-336162306331/-/cover/360x300/center/center/-/format/webp/53717080.jpg",
     "title": "МАЛЫЙ С ЛОСОСЕМ",
     "types": [0, 1],
-    "sizes": [4, 6, 8],
+    "sizes": [6, 8],
     "price": 260,
     "category": 3,
     "rating": 47
@@ -114,7 +114,7 @@
     "imageUrl": "https://thumb.tildacdn.com/stor3461-3332-4733-a336-633730666461/-/cover/360x300/center/center/-/format/webp/90008228.jpg",
     "title": "МАЛАЯ ФИЛАДЕЛЬФИЯ",
     "types": [0, 1],
-    "sizes": [4, 6, 8],
+    "sizes": [6, 8],
     "price": 280,
     "category": 3,
     "rating": 8

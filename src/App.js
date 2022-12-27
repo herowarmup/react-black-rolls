@@ -8,8 +8,6 @@ import rolls from './assets/rolls.json';
 
 import './scss/app.scss';
 
-console.log(rolls);
-
 function App() {
   return (
     <div className='wrapper'>
@@ -23,7 +21,7 @@ function App() {
           <h2 className='content__title'>Все роллы</h2>
           <div className='content__items'>
             {rolls.map((rolls) => (
-              <RollBlock title={rolls.title} price={rolls.price} />
+              <RollBlock key={rolls.id} {...rolls} />
             ))}
           </div>
         </div>
