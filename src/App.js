@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Categories from './components/Categories';
 import Sort from './components/Sort';
 import RollBlock from './components/RollBlock';
+import Skeleton from './components/RollBlock/Skeleton';
 
 // import rolls from './assets/rolls.json';
 
@@ -33,7 +34,7 @@ function App() {
           <h2 className='content__title'>Все роллы</h2>
           <div className='content__items'>
             {items.map((rolls) => (
-              <RollBlock key={rolls.id} {...rolls} />
+              <Skeleton key={rolls.id} {...rolls} />
             ))}
           </div>
         </div>
