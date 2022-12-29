@@ -47,7 +47,7 @@
     "sizes": [4, 6],
     "price": 450,
     "category": 4,
-    "rating": 8
+    "rating": 7
   },
   {
     "id": 5,
@@ -117,6 +117,6 @@
     "sizes": [6, 8],
     "price": 280,
     "category": 3,
-    "rating": 8
+    "rating": 7
   }
 ]
