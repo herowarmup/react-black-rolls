@@ -11,6 +11,7 @@ import './scss/app.scss';
 
 function App() {
   const [items, setItems] = React.useState([]);
+  const [isLoading, setIsLoading] = React.useState(true);
 
   React.useEffect(() => {
     fetch('https://63aafafbfdc006ba6051e61a.mockapi.io/items')
@@ -19,6 +20,7 @@ function App() {
       })
       .then((arr) => {
         setItems(arr);
+        setIsLoading(false);
       });
   }, []);
 
@@ -33,9 +35,7 @@ function App() {
           </div>
           <h2 className='content__title'>Все роллы</h2>
           <div className='content__items'>
-            {items.map((rolls) => (
-              <Skeleton key={rolls.id} {...rolls} />
-            ))}
+            {isLoading ? [...new Array(6)].map((_, index) => <Skeleton key={index} />) : items.map((obj) => <RollBlock key={obj.id} {...obj} />)}
           </div>
         </div>
       </div>
