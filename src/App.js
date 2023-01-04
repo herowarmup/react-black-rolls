@@ -23,7 +23,7 @@ function App() {
         setIsLoading(false);
         //sss
         ///sss
-        ///sssы
+        ///sssыы
       });
   }, []);
 
